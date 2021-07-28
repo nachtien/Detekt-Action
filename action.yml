@@ -23,7 +23,7 @@ inputs:
   detekt_config:
     description: 'yml detekt config'
     required: false
-    default: 'default-detekt-config.yml'
+    default: 'config/detekt/detekt.yml'
   detekt_excludes:
     description: 'Globing patterns describing paths to exclude from the analysis.'
     required: false
