@@ -1,4 +1,4 @@
-name: 'Leave PR comments based on Detekt rules.'
+name: 'PR comments based on Detekt results'
 description: 'Deteklt will leave comments on pull requests.Uses Detekt 1.18.0-RC2. Forked from https://github.com/alaegin/Detekt-Action'
 author: 'Alexey Egin (alaegin)'
 
