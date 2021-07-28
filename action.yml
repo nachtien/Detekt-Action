@@ -27,7 +27,7 @@ inputs:
   detekt_baseline:
     description: 'Baseline file for code smell'
     required: false
-    default: `app/detekt-baseline.xml`
+    default: 'app/detekt-baseline.xml'
   detekt_excludes:
     description: 'Globing patterns describing paths to exclude from the analysis.'
     required: false
