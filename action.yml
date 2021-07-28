@@ -47,6 +47,7 @@ runs:
     - ${{ inputs.reviewdog_filter }}
     - ${{ inputs.reviewdog_reporter }}
     - ${{ inputs.detekt_config }}
+    - ${{ inputs.detekt_baseline }}
     - ${{ inputs.detekt_excludes }}
     - ${{ inputs.fail_on_error }}
 branding:
