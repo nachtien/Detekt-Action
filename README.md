@@ -1,3 +1,7 @@
+### Forked from https://github.com/alaegin/Detekt-Action
+#### But this uses Detekt 1.18.0-RC2
+
+
 # Github Action for running detekt with reviewdog
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alaegin/Detekt-Action)
