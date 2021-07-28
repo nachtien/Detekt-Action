@@ -7,6 +7,9 @@ if [ "$INPUT_FAIL_ON_ERROR" = true ] ; then
   set -o pipefail
 fi
 
+set -x
+ls $PWD
+
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
 java -jar /opt/detekt.jar --fail-fast --config "${INPUT_DETEKT_CONFIG}" \
