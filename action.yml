@@ -1,5 +1,5 @@
 name: 'Leave PR comments based on Detekt rules.'
-description: '🐶 Run detekt with reviewdog on pull requests to enforce best practices. Uses Detekt 1.18.0-RC2. Forked from https://github.com/alaegin/Detekt-Action'
+description: 'Deteklt will leave comments on pull requests.Uses Detekt 1.18.0-RC2. Forked from https://github.com/alaegin/Detekt-Action'
 author: 'Alexey Egin (alaegin)'
 
 inputs:
