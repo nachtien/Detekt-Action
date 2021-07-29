@@ -14,8 +14,6 @@ cat "${INPUT_DETEKT_CONFIG}"
 
 echo "baseline: "
 echo "$(<"${INPUT_DETEKT_BASELINE}")"
-asfdsdfsd
-asfdsdfsd
 cat "${INPUT_DETEKT_BASELINE}"
 
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
