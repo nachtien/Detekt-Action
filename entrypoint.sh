@@ -8,7 +8,13 @@ if [ "$INPUT_FAIL_ON_ERROR" = true ] ; then
 fi
 
 set -x
-ls $PWD
+echo "config: "
+echo "$(<${INPUT_DETEKT_CONFIG})"
+cat "${INPUT_DETEKT_CONFIG}"
+
+echo "baseline: "
+echo "$(<"${INPUT_DETEKT_BASELINE}")"
+cat "${INPUT_DETEKT_BASELINE}"
 
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
