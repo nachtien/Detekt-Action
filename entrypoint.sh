@@ -20,4 +20,3 @@ java -jar /opt/detekt.jar --fail-fast --debug --config "${INPUT_DETEKT_CONFIG}" 
 
 reviewdog -f=checkstyle -name="detekt" -reporter="${INPUT_REVIEWDOG_REPORTER}" \
   -level="${INPUT_REVIEWDOG_LEVEL}" -filter-mode="${INPUT_REVIEWDOG_FILTER}" <detekt_report.xml
-  
