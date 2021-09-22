@@ -9,7 +9,7 @@ fi
 
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
-java -jar /opt/detekt.jar --fail-fast --config "${INPUT_DETEKT_CONFIG}" \
+java -jar /opt/detekt.jar --fail-fast --config detekt.yml \
   --report xml:detekt_report.xml \
   --baseline baseline.xml \
   --excludes "${INPUT_DETEKT_EXCLUDES}" \
