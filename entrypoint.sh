@@ -8,9 +8,6 @@ if [ "$INPUT_FAIL_ON_ERROR" = true ] ; then
 fi
 
 set -x
-echo "config: "
-echo "$(<${INPUT_DETEKT_CONFIG})"
-cat "${INPUT_DETEKT_CONFIG}"
 
 echo "baseline: "
 echo "$(<"${INPUT_DETEKT_BASELINE}")"
