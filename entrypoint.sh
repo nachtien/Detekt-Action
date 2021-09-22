@@ -15,7 +15,7 @@ set -x
 
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
-java -jar /opt/detekt.jar --fail-fast \
+java -jar /opt/detekt.jar --fail-fast --debug --config config/detekt/config.xml \
   --report xml:detekt_report.xml \
   --baseline baseline.xml \
   --excludes "${INPUT_DETEKT_EXCLUDES}" \
