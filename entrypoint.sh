@@ -9,9 +9,9 @@ fi
 
 set -x
 
-echo "baseline: "
-echo "$(<"${INPUT_DETEKT_BASELINE}")"
-cat "${INPUT_DETEKT_BASELINE}"
+#echo "baseline: "
+#echo "$(<"${INPUT_DETEKT_BASELINE}")"
+#cat "${INPUT_DETEKT_BASELINE}"
 
 export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
