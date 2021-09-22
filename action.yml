@@ -23,7 +23,7 @@ inputs:
   detekt_config:
     description: 'yml detekt config'
     required: false
-    default: 'config/detekt/detekt.yml'
+    default: 'detekt.yml'
   detekt_baseline:
     description: 'Baseline file for code smell'
     required: false
